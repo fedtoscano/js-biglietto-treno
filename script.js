@@ -1,5 +1,5 @@
 let userKm = Number.parseInt(prompt("Inserisci il numero di KM che vuoi percorrere"), 10)
-let userAge = prompt("Inserisci la tua età")
+let userAge = Number.parseInt(prompt("Inserisci la tua età"), 10)
 
 let price = userKm * 0.276
 
